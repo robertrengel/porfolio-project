@@ -1,0 +1,43 @@
+:root{
+    --primary-color : #D0ECF2;
+    --secondary-color: #1d213c;
+    --tertiary-color : #9fa4b7;
+    --quaternary-color : #d5dce4;
+    
+    --primary-color-logo : #F2F2F2;
+    --secondary-color-logo : #CEECF2;
+    --tertiary-color-logo: #A7DDF2;
+    --quaternary-color-logo : #0B3140;
+}
+
+body{
+    background-color: var(--primary-color-logo);
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.navBar ul {
+  display: flex;  
+  padding: 0px;
+  margin: 0px;
+}
+
+.title{
+    text-align: center;
+}
