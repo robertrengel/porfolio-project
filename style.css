@@ -12,13 +12,20 @@
 
 body{
     background-color: var(--primary-color-logo);
-    padding: 20px;
+    
 }
-
+ main{
+    padding: 20px;
+ }
 header{
     display: flex;
     align-items: center;
     justify-content:space-between ;
+    background-color: var(--secondary-color-logo);
+    padding: 10px 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 20px;
 }
 
 ul{
@@ -30,12 +37,54 @@ ul{
 .logo{
     display: flex;
     align-items: center;
+    font-size: 0;
+
+}
+
+.logo img{
+    width: 50px;
 }
 
 .navBar ul {
   display: flex;  
   padding: 0px;
   margin: 0px;
+  
+}
+
+.navBar ul li a{
+    display: flex;
+    align-items: center;
+    font-size: 0;
+}
+
+.navBar ul li:not(:first-child){
+    margin-left: 5px;
+}
+
+.navBar ul li img{
+    width: 40px;
+}
+
+.banner{
+    position: relative;
+    background-color: red;
+    padding-bottom: 50.5%;
+    width: 100vw;
+    
+
+}
+
+.banner img{
+    position: absolute;
+    width: 50%;
+    max-width: 480px;
+    min-width: 200px;
+    left: 50%; 
+    transform: translateX(-50%);
+    border: 2px solid var(--tertiary-color-logo); 
+    border-radius: 50%; 
+    
 }
 
 .title{

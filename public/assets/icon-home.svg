@@ -1,15 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="style=linear" clip-path="url(#clip0_1_184)">
-<g id="home-smile">
-<path id="vector" d="M19 23H5C3.34315 23 2 21.6569 2 20V11.563C2 10.4094 2.49808 9.31192 3.36639 8.55236L10.0248 2.72784C11.1558 1.7385 12.8442 1.73851 13.9752 2.72784L20.6336 8.55236C21.5019 9.31192 22 10.4094 22 11.563V20C22 21.6569 20.6569 23 19 23Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round"/>
-<path id="vector_2" d="M7.48433 15.1468C7.89041 16.001 8.53042 16.7224 9.33006 17.2275C10.1297 17.7325 11.0562 18.0004 12.002 18C12.9477 17.9996 13.874 17.731 14.6732 17.2254C15.4725 16.7197 16.1119 15.9977 16.5173 15.1433" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_1_184">
-<rect width="24" height="24" fill="white" transform="translate(0 24) rotate(-90)"/>
-</clipPath>
-</defs>
+<path d="M18.4384 20C19.3561 20 20.1493 19.3726 20.2725 18.4632C20.3895 17.5988 20.5 16.4098 20.5 15C20.5 12 20.6683 10.1684 17.5 7C16.0386 5.53865 14.4064 4.41899 13.3024 3.74088C12.4978 3.24665 11.5021 3.24665 10.6975 3.74088C9.5935 4.41899 7.96131 5.53865 6.49996 7C3.33157 10.1684 3.49997 12 3.49997 15C3.49997 16.4098 3.61039 17.5988 3.72745 18.4631C3.85061 19.3726 4.64378 20 5.56152 20H18.4384Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
