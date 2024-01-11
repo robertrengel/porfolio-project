@@ -5,6 +5,7 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="style.css"> -->
+    <script type="module" src="/main.js"></script>
     <title>robertDev</title>
   </head>
   
@@ -16,12 +17,12 @@
     </div>
     <nav class="navBar">
       <ul>
-        <li><a href="#"><img src="public/assets/icon-home.svg" alt="inicio"> Inicio</a></li>
-        <li><a href="#"><img src="public/assets/icon-profile.svg" alt="sobre mi">sobre mi</a></li>
-        <li><a href="#"><img src="public/assets/icon-service.svg" alt="servicio">Servicios</a></li>
-        <li><a href="#"><img src="public/assets/icon-porfolio.svg" alt="proyectos">proyectos</a></li>
-        <li><a href="#"><img src="public/assets/icon-blog.svg" alt="blog">blog</a></li>
-        <li><a href="#"><img src="public/assets/icon-contact.svg" alt="blog">contacto</a></li>
+        <li><a href="#"><img src="public/assets/icon-home.svg" alt="inicio"><span>Inicio</span></a></li>
+        <li><a href="#"><img src="public/assets/icon-profile.svg" alt="sobre mi"><span>Sobre mi</span></a></li>
+        <li><a href="#"><img src="public/assets/icon-service.svg" alt="servicio"><span>Servicios</span></a></li>
+        <!-- <li><a href="#"><img src="public/assets/icon-porfolio.svg" alt="proyectos"><span>Proyectos</span></a></li> -->
+        <li><a href="#"><img src="public/assets/icon-blog.svg" alt="blog"><span>Blog</span></a></li>
+        <!-- <li><a href="#"><img src="public/assets/icon-contact.svg" alt="blog"><span>Contacto</span></a></li> -->
       </ul>  
     </nav>
     
@@ -45,27 +46,36 @@
       
       <div class="skill">
         <ul>
-          <li>html</li>
-          <li>css</li>
-          <li>javascript</li>
-          <li>django</li>
-          <li>flas</li>
+          <li><img src="public/assets/html5.svg" alt="html"><p>html</p></li>
+          <li><img src="public/assets/css.svg" alt="css"><p>css</p></li>
+          <li><img src="public/assets/javascript.svg" alt="javascript"><p>javascript</p></li>
+          <li><img src="public/assets/django.svg" alt="django"><p>django</p></li>
+          <li><img src="public/assets/icons8-flask.svg" alt="flask"><p>flask</p></li>
         </ul>
       </div>
       
       <div class="botones">
-        <div class="contacto"></div>
-        <div class="proyectos"></div>
+        <div class="contacto">Contacto</div>
+        <div class="proyectos">Proyectos</div>
       </div>
+
     </section>
     
     <section>
-      <div class="proyectos"></div>
+      <div class="proyectos-section">
+        <div class="card-proyecto">proyecto 1</div>
+        <div class="card-proyecto">proyecto 2</div>
+        <div class="card-proyecto">proyecto 3</div>
+      </div>
       <div class="un_boton_a_mas_proyectos"></div>
     </section>
     
     <section>
-      <div class="contacto"></div>
+      <div class="titulo-proyecto">
+        <p>Proyestos Realizados</p>
+      </div>
+
+      <div class="form-contacto"></div>
     </section>
     
   </main>
@@ -78,6 +88,6 @@
 
     
 
-    <script type="module" src="/main.js"></script>
+   
   </body>
 </html>

@@ -2,10 +2,15 @@ import "./style.css";
 import "normalize.css"
 
 
+window.addEventListener("load", function() {
+    ajustarContenedor()
+})
 
 window.addEventListener('resize', function() {
     ajustarContenedor();
 });
+
+
 
 function ajustarContenedor() {
     // var contenedor = document.getElementById('miContenedor');
@@ -16,15 +21,17 @@ function ajustarContenedor() {
     console.log(bannerStyle.paddingBottom)
     // var anchoPantalla = window.innerWidth;
 
-    if (bannerStyle.paddingBottom > 480) {
-        banner.style.paddingBottom = '480';
+    if (logoTitle.width == 480) {
+        console.log("padding mayor ")
+        banner.style.paddingBottom = '500px';
     } else {
-        banner.style.paddingBottom = '50.5%';
+        banner.style.paddingBottom = '52.2%';
+        console.log("padding menor de 480")
     }
 }
 
 // Llama a la función al cargar la página
-ajustarContenedor();
+// ajustarContenedor();
 
 // var miImagen = document.getElementById('miImagen');
 

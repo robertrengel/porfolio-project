@@ -12,6 +12,7 @@
 
 body{
     background-color: var(--primary-color-logo);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
  main{
@@ -32,6 +33,11 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
+
 
 
 .logo{
@@ -50,16 +56,53 @@ ul{
   padding: 0px;
   margin: 0px;
   
+  
 }
+
+
 
 .navBar ul li a{
     display: flex;
     align-items: center;
-    font-size: 0;
+    overflow: hidden;
+    
 }
 
-.navBar ul li:not(:first-child){
-    margin-left: 5px;
+.navBar ul li a span{
+    overflow: hidden;
+    width: 0;
+    
+    
+    
+}
+
+.navBar ul li a:hover span{
+    color: var(--secondary-color-logo);
+
+    font-size: 18px;
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: visible; */
+    width:80px; 
+    transition: width 0.5s ease;
+    
+    
+}
+
+.navBar ul li a:hover {
+    background-color: var(--quaternary-color-logo);
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 50px;
+    /* width: 100px;
+    transition: width 1.5s ease; */
+    
+}
+
+.navBar ul li a img{
+    padding-right: 5px;
+    
+
 }
 
 .navBar ul li img{
@@ -68,11 +111,14 @@ ul{
 
 .banner{
     position: relative;
-    background-color: red;
     padding-bottom: 50.5%;
     width: 100vw;
-    
+}
 
+@media screen and (min-width: 950px){
+    .banner{
+        padding-bottom: 500px;
+    }
 }
 
 .banner img{
@@ -82,11 +128,54 @@ ul{
     min-width: 200px;
     left: 50%; 
     transform: translateX(-50%);
-    border: 2px solid var(--tertiary-color-logo); 
+    border: 10px solid var(--tertiary-color-logo); 
     border-radius: 50%; 
     
 }
 
 .title{
     text-align: center;
+}
+
+.skill ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+
+
+}
+
+.skill ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 110px;
+}
+
+.skill ul li img{
+    width: 100%;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto, .proyectos{
+    background-color: red;
+    padding: 20px;
+}
+
+.proyectos-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-proyecto{
+    width: 100px;
 }
