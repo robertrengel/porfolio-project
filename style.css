@@ -17,17 +17,21 @@ body{
 }
  main{
     padding: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
  }
-header{
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
-    background-color: var(--secondary-color-logo);
-    padding: 10px 20px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    margin-bottom: 20px;
-}
+
+ header{
+     background-color: var(--secondary-color-logo);
+
+
+ }
+
+ h2{
+    text-align: center;
+ }
+
 
 ul{
     list-style: none;
@@ -37,7 +41,48 @@ a{
     text-decoration: none;
 }
 
+section{
+    text-align: center;
+}
 
+footer{
+    background-color: var(--secondary-color-logo);
+}
+
+footer ul{
+    display: flex;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+    justify-content: space-between;
+    max-width: 1200px;
+
+}
+
+footer ul li a{
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    font-weight: 500;
+
+}
+
+footer ul li img{
+    width: 50px;
+}
+.background{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding: 10px 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .logo{
@@ -117,14 +162,15 @@ a{
 
 @media screen and (min-width: 950px){
     .banner{
-        padding-bottom: 500px;
+        padding-bottom: 370px;
+        /* background-color: red; */
     }
 }
 
 .banner img{
     position: absolute;
     width: 50%;
-    max-width: 480px;
+    max-width: 350px;
     min-width: 200px;
     left: 50%; 
     transform: translateX(-50%);
@@ -153,6 +199,10 @@ a{
     flex-direction: column;
     align-items: center;
     width: 110px;
+    /* border: 1px solid  red ; */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--tertiary-color-logo);
 }
 
 .skill ul li img{

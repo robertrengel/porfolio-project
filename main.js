@@ -21,9 +21,9 @@ function ajustarContenedor() {
     console.log(bannerStyle.paddingBottom)
     // var anchoPantalla = window.innerWidth;
 
-    if (logoTitle.width == 480) {
+    if (logoTitle.width == 350) {
         console.log("padding mayor ")
-        banner.style.paddingBottom = '500px';
+        banner.style.paddingBottom = '370px';
     } else {
         banner.style.paddingBottom = '52.2%';
         console.log("padding menor de 480")
