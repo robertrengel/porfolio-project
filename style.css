@@ -71,6 +71,12 @@ footer ul li a{
 footer ul li img{
     width: 50px;
 }
+
+figure{
+    margin: 0;
+
+}
+
 .background{
     display: flex;
     align-items: center;
@@ -183,6 +189,21 @@ footer ul li img{
     text-align: center;
 }
 
+.proyectos-section{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.card-proyecto{
+    background-color: blue;
+    width: 300px;
+}
+
+.card-image-content{
+    padding: 10px;
+}
+
 .skill ul{
     display: flex;
     justify-content: space-between;
@@ -207,6 +228,7 @@ footer ul li img{
 
 .skill ul li img{
     width: 100%;
+    
 }
 
 .botones{
@@ -226,6 +248,3 @@ footer ul li img{
     gap: 20px;
 }
 
-.card-proyecto{
-    width: 100px;
-}
