@@ -23,9 +23,9 @@ function ajustarContenedor() {
 
     if (logoTitle.width == 350) {
         console.log("padding mayor ")
-        banner.style.paddingBottom = '370px';
+        banner.style.paddingBottom = '350px';
     } else {
-        banner.style.paddingBottom = '52.2%';
+        banner.style.paddingBottom = '50.2%';
         console.log("padding menor de 480")
     }
 }
