@@ -13,13 +13,15 @@
   <header>
     <div class="background-navbar">
       <div class="logo-navbar">
-        <img src="public/assets/logo-simple.svg" alt="logo">
-        <p>RobertDev</p>
+        <a href="index.html">
+          <img src="public/assets/logo-simple.svg" alt="logo">
+          <p>RobertDev</p>
+        </a>
       </div>
       <nav class="navBar">
         <ul>
-          <li><a href="/index.html"><img src="public/assets/icon-home.svg" alt="inicio"><span>Inicio</span></a></li>
-          <li><a href="/perfil.html"><img src="public/assets/icon-profile.svg" alt="Perfil"><span>Perfil</span></a></li>
+          <!-- <li><a href="/index.html"><img src="public/assets/icon-home.svg" alt="inicio"><span>Inicio</span></a></li> -->
+          <!-- <li><a href="/perfil.html"><img src="public/assets/icon-profile.svg" alt="Perfil"><span>Perfil</span></a></li> -->
           <!-- <li><a href="#"><img src="public/assets/icon-service.svg" alt="servicio"><span>Servicios</span></a></li> -->
           <!-- <li><a href="#"><img src="public/assets/icon-porfolio.svg" alt="proyectos"><span>Proyectos</span></a></li> -->
           <!-- <li><a href="#"><img src="public/assets/icon-blog.svg" alt="blog"><span>Blog</span></a></li> -->
@@ -38,6 +40,10 @@
       <div class="title-banner">
         <h2>Desarrollador <span>Backend</span></h2>
         <p>Desarrolando soluciones inteligentes a problemas complicados. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <a class="perfil-botton" href="/perfil.html">
+          <!-- <img src="public/assets/icon-profile.svg" alt="Perfil"> -->
+          <span>Ver Perfil</span>
+        </a>
         <ul>
           <li>
             <a href="https://github.com/robertrengel">
@@ -65,7 +71,11 @@
               <a href="">proyecto 1</a>
               <div class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod iste nulla numquam earum reiciendis consequatur rerum quia dolor totam dignissimos.</div>
             </div>
-            <button class="card-buttom" type="button">ver mas</button>
+            <!-- <button class="card-buttom" type="button">Descubrir</button> -->
+            <div class="content-boton-project">
+              <a href="project1.html" class="card-buttom">Descubrir</a>
+              <div></div>
+            </div>
           </article>
           <article class="card-proyecto">
             <div class="card-image-content">
@@ -75,7 +85,7 @@
               <a href="">proyecto 2</a>
               <div class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod iste nulla numquam earum reiciendis consequatur rerum quia dolor totam dignissimos.</div>
             </div>
-            <button class="card-buttom" type="button">ver mas</button>
+            <a href="project2.html" class="card-buttom">Descubrir</a>
           </article>
         </div>
 
@@ -88,7 +98,7 @@
               <a href="">proyecto 3</a>
               <div class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod iste nulla numquam earum reiciendis consequatur rerum quia dolor totam dignissimos.</div>
             </div>
-            <button class="card-buttom" type="button">ver mas</button>
+            <a href="project3.html" class="card-buttom">Descubrir</a>
           </article>
           <article class="card-proyecto">
             <div class="card-image-content">
@@ -98,7 +108,10 @@
               <a href="">proyecto 4</a>
               <div class="card-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod iste nulla numquam earum reiciendis consequatur rerum quia dolor totam dignissimos.</div>
             </div>
-            <button class="card-buttom" type="button">ver mas</button>
+            <div class="content-boton-project">
+              <a href="project1.html" class="card-buttom">Descubrir</a>
+              <div></div>
+            </div>
           </article>
         </div>
 
@@ -132,6 +145,11 @@
       <div class="contacto-banner">
         <h1>¿Interesado en trabajar conmigo?</h1>
         <div class="button">Contactar</div>
+        <div id="contactos-msg" class="visible contactos">
+          <div><img src="public/assets/envelope-svgrepo-com.svg" alt="logo-correo"><span>robertrengel@gmail.com</span></div>
+          <div><img src="public/assets/whatsapp-svgrepo-com.svg" alt="logo-phone"><span>+51 935653857</span></div>
+          <div><img src="public/assets/geo-alt-svgrepo-com.svg" alt="logo-geo"><span>Lima-Peru</span></div>
+        </div>
       </div>
     </section>
     
@@ -146,7 +164,7 @@
         
         <ul>
           <ul>
-            <li><span>Para contactos</span></li>
+            <li><span>Para Contacto</span></li>
             <li><span>robertrengel@gmail.com</span></li>
           </ul>
           <ul>
