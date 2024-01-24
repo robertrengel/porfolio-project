@@ -31,12 +31,32 @@
     --paleta2-c-5:#122012; */
 }
 
+
+@font-face {
+    font-family: "Montserrat" ;
+    src: url("public/fonts/Montserrat-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat" ;
+    src: url("public/fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat" ;
+    src: url("public/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
 *, *:after, *:before{
     box-sizing: border-box;
 }
 body{
     background-color: var(--paleta2-c-1);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: "Montserrat";
 
 }
 main{
@@ -122,6 +142,10 @@ footer ul ul ul:first-child{
 
 footer ul ul:last-child ul:last-child li a img{
     width: 30px;
+}
+
+footer ul ul:last-child ul:last-child li a img:hover{
+    scale: 1.2;
 }
 
 footer ul ul:last-child ul:last-child li:first-child a{
@@ -313,6 +337,7 @@ footer ul ul:last-child ul:last-child li:first-child a{
     border-radius: 30px;
     font-weight: 600;
     color: var(--paleta2-c-5);
+    user-select: none;
 }
 
 .perfil-botton:hover{
@@ -320,10 +345,6 @@ footer ul ul:last-child ul:last-child li:first-child a{
     color: var(--paleta2-c-1);
 }
 
-.perfil-botton img{
-    width: 35px;
-    margin-right: 10px;
-}
 
 .title-banner{
     display: flex;
@@ -359,6 +380,11 @@ footer ul ul:last-child ul:last-child li:first-child a{
 .title-banner ul li a img{
     width: 30px;
 }
+
+.title-banner ul li a img:hover{
+    scale: 1.2;   
+}
+
 
 @media screen and (min-width: 850px){
 
@@ -550,6 +576,7 @@ footer ul ul:last-child ul:last-child li:first-child a{
     font-weight: 500;
     pointer-events: none;
     padding-bottom: 8px;
+    font-weight: 600;
 }
 
 .card-content{
@@ -660,6 +687,7 @@ footer ul ul:last-child ul:last-child li:first-child a{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    user-select: none;
 }
 
 /* botton:hover de contacto ------------------------------------- */
@@ -691,9 +719,15 @@ footer ul ul:last-child ul:last-child li:first-child a{
     padding: 20px;
     border-radius: 70px;
     max-width: 600px;
-    opacity: 0;
-    display: none;
-    transition: opacity 0.5s ease;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.visible{
+    height: 0px;
+    overflow: hidden;
+    /* margin: 0px; */
+    padding: 0px;
 }
 
 .contactos div{
@@ -714,11 +748,45 @@ footer ul ul:last-child ul:last-child li:first-child a{
     margin-right: 20px;
 }
 
-.visible{
-    opacity: 1;
-    display: block;
-    
+.card-project-page{
+    /* background-color: red; */
+    width: 100%;
+    max-width: none;
+    margin-bottom: 25px;
 }
+
+.caracteristicas-project-page{
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.caracteristicas-project-page li{
+    margin-top: 20px;
+}
+
+.caracteristicas-project-page li:last-child{
+    margin-bottom: 20px;
+}
+
+.card-column-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+    /* gap: 20px; */
+
+}
+
+@media screen and (min-width: 850px){
+
+    .card-column-1 article{
+        /* flex: 1; */
+        flex-basis: 48%;
+    }
+}
+
+
+
+
 
 
 
