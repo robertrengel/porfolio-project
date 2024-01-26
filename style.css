@@ -619,7 +619,7 @@ footer ul ul:last-child ul:last-child li:first-child a {
   margin-right: auto;
   margin-top: 30px;
   padding: 20px;
-  border-radius: 70px;
+  border-radius: 30px;
   max-width: 600px;
   height: auto;
   transition: all 0.3s ease;
@@ -640,6 +640,18 @@ footer ul ul:last-child ul:last-child li:first-child a {
 
 .contactos div:last-child {
   padding-bottom: 0px;
+  pointer-events: none;
+}
+
+.contactos div a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactos div a span{
+  color: black;
+  font-weight: 600;
 }
 
 .contactos div img {
