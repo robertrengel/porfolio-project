@@ -1,82 +1,190 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="public/assets/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script type="module" src="/main.js"></script>
     <title>robertDev</title>
   </head>
   <body>
-  <header>
-    <div class="background-navbar">
-      <div class="logo-navbar">
-        <a href="index.html">
-          <img src="public/assets/logo-simple.svg" alt="logo">
-          <p>RobertDev</p>
-        </a>
+    <header>
+      <div class="background-navbar">
+        <div class="logo-navbar">
+          <a href="index.html">
+            <img src="public/assets/logo-simple.svg" alt="logo" />
+            <p>RobertDev</p>
+          </a>
+        </div>
+        <nav class="navBar">
+          <ul>
+            <!-- <li><a href="/index.html"><img src="public/assets/icon-home.svg" alt="inicio"><span>Inicio</span></a></li> -->
+            <!-- <li><a href="/perfil.html"><img src="public/assets/icon-profile.svg" alt="Perfil"><span>Perfil</span></a></li> -->
+            <!-- <li><a href="#"><img src="public/assets/icon-service.svg" alt="servicio"><span>Servicios</span></a></li> -->
+            <!-- <li><a href="#"><img src="public/assets/icon-porfolio.svg" alt="proyectos"><span>Proyectos</span></a></li> -->
+            <!-- <li><a href="#"><img src="public/assets/icon-blog.svg" alt="blog"><span>Blog</span></a></li> -->
+            <!-- <li><a href="#"><img src="public/assets/icon-contact.svg" alt="blog"><span>Contacto</span></a></li> -->
+          </ul>
+        </nav>
       </div>
-      <nav class="navBar">
-        <ul>
-          <!-- <li><a href="/index.html"><img src="public/assets/icon-home.svg" alt="inicio"><span>Inicio</span></a></li> -->
-          <!-- <li><a href="/perfil.html"><img src="public/assets/icon-profile.svg" alt="Perfil"><span>Perfil</span></a></li> -->
-          <!-- <li><a href="#"><img src="public/assets/icon-service.svg" alt="servicio"><span>Servicios</span></a></li> -->
-          <!-- <li><a href="#"><img src="public/assets/icon-porfolio.svg" alt="proyectos"><span>Proyectos</span></a></li> -->
-          <!-- <li><a href="#"><img src="public/assets/icon-blog.svg" alt="blog"><span>Blog</span></a></li> -->
-          <!-- <li><a href="#"><img src="public/assets/icon-contact.svg" alt="blog"><span>Contacto</span></a></li> -->
-        </ul>  
-      </nav>     
-    </div>
-  </header>
-  <main>
-    <!--  banner----------------- -->
-  <article class="banner-container banner-margin">
-    <div class="banner">
-      <div class="banner-img">
-        <img id="logotitle" src="public/assets/avatar_2.svg" alt="">
-      </div>
-      <div class="title-banner">
-        <h2>Robert Rengel<br> <span>Desarrollador Fullstack</span></h2>
-        <p>Desarrollando soluciones intuitivas que puedan evolucionar y optimizarse</p>
+    </header>
+    <main>
+      <!--  banner----------------- -->
+      <article class="banner-container banner-margin">
+        <div class="banner">
+          <div class="banner-img">
+            <img id="logotitle" src="public/assets/avatar_2.svg" alt="" />
+          </div>
+          <div class="title-banner">
+            <h2>
+              Robert Rengel<br />
+              <span>Desarrollador Fullstack</span>
+            </h2>
+            <p>
+              Desarrollando soluciones intuitivas que puedan evolucionar y
+              optimizarse
+            </p>
+            <ul class="info-perfil-page">
+              <li>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=robertrengel@gmail.com&su=Contactar&body=Buenas. Me gustaria contactarlo">
+                  <img
+                    src="public/assets/letter.png"
+                    alt="gmail"
+                  />
+                  <span>robertrengel@gmail.com</span></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/51935653857?text=Hola%20quiero%20información"
+                >
+                  <img
+                    src="public/assets/whatsapp.png"
+                    alt="linkdin"
+                  />
+                <span>+51935653857</span></a>
+              </li>
+              <li>
+                <a href="">
+                  <img
+                    src="public/assets/pin.png"
+                    alt="github"
+                  />
+                  <span>Lima-Peru</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="title-extra"></div>
+        </div>
+      </article>
+      <!-- sobre mi y habilidades----------------- -->
+      <section class="section-projects">
+        <div class="proyectos-section">
+          <div class="card-column-1 card-column-project">
+            <article class="card-proyecto card-project-page card-border">
+              <div class="card-header">
+                <a href="">Sobre mi</a>
+                <div class="card-content">
+                  <p>
+                    Soy un desarrollador web fullstack con 5 años de experiencia
+                    creando aplicaciones web escalables y de alto rendimiento.
+                    Tengo sólidos conocimientos en Python, CSS, HTML,
+                    JavaScript, MySQL y Django.
+                  </p>
+                  <p>
+                    He trabajado extensivamente con Python y Django en el
+                    backend, construyendo APIs RESTful seguras y bases de datos
+                    optimizadas. También tengo mucha experiencia en el frontend
+                    con HTML, CSS y JavaScript, creando interfaces de usuario
+                    intuitivas y experiencias de usuario enriquecedoras.
+                  </p>
+                  <p>
+                    A lo largo de mi carrera, he adquirido habilidades en
+                    gestión de proyectos ágiles, trabajo en equipo y
+                    comunicación para coordinar efectivamente con diseñadores,
+                    gerentes de productos y otros involucrados durante el ciclo
+                    de desarrollo.
+                  </p>
+                  <p>
+                    Me apasiona estar al día con las últimas tendencias y
+                    tecnologías web. En los proyectos que emprendo, hago énfasis
+                    en la escalabilidad, rendimiento, seguridad y experiencia de
+                    usuario. Siempre busco formas de mejorar mis habilidades y
+                    producir software de la más alta calidad.
+                  </p>
+                  <p>
+                    Si está buscando un desarrollador fullstack versátil para
+                    agregar valor a su equipo, no dude en ponerse en contacto.
+                  </p>
+                </div>
+              </div>
+            </article>
 
-      </div>
-      <div class="title-extra"></div>
-    </div>
-  </article>
-<!-- sobre mi y habilidades----------------- -->
-  <article class="banner-container banner-margin">
-    <div class="banner">
-      <div class="title-banner superior-perfil-banner banner-flex">
-        <h2>Sobre mi</h2>
-        <p>Desarrollando soluciones intuitivas que puedan evolucionar y optimizarse</p>
+            <article class="card-proyecto card-project-page card-border">
+              <div class="card-header">
+                <a href="">Experiencia</a>
+                <div class="card-content">
+                  <ul class="caracteristicas-project-page">
+                    <li>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Accusantium, qui!
+                    </li>
+                    <li>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quae quam voluptatem et!
+                    </li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
 
-      </div>
-      <div class="title-banner inferior-perfil-banner banner-flex">
-        <h2>Habilidades</h2>
-        <p>Desarrollando soluciones intuitivas que puedan evolucionar y optimizarse</p>
+          <!--Experiencia y certificados --------------------- -->
+          <div class="card-column-1 card-column-project">
+            <article class="card-proyecto card-project-page card-border">
+              <div class="card-header">
+                <a href="">Habilidades Tecnicas</a>
+                <div class="card-content">
+                  <ul class="ability-perfil-page">
+                    <li>
+                      <b>Lenguajes de programación:</b> Python, JavaScript.
+                    </li>
+                    <li><b>Bases de datos:</b> MySQL, PostgreSQL.</li>
+                    <li><b>Frameworks web:</b> Django, FastAPI.</li>
+                    <li><b>Herramientas de desarrollo:</b> Git, Vite, npm.</li>
+                    <li>
+                      <b>Herramientas de diseño:</b> Figma, Adobe Photoshop,
+                      Gimp.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
 
-      </div>
-    </div>
-  </article>
+            <article class="card-proyecto card-project-page card-border">
+              <div class="card-header">
+                <a href="">Certificaciones</a>
+                <div class="card-content">
+                  <ul class="certificate-perfil-page">
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum.</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
 
-  <!--Experiencia y certificados --------------------- -->
-  <article class="banner-container ">
-    <div class="banner">
-      <div class="title-banner superior-perfil-banner banner-flex">
-        <h2>Experencia</h2>
-        <p>Desarrollando soluciones intuitivas que puedan evolucionar y optimizarse</p>
-
-      </div>
-      <div class="title-banner inferior-perfil-banner banner-flex">
-        <h2>Certificado</h2>
-        <p>Desarrollando soluciones intuitivas que puedan evolucionar y optimizarse</p>
-<!-- ------------------ -->
-      </div>
-    </div>
-  </article>
-</main>
-  
     <footer>
       <ul>
         <ul class="title-footer">
@@ -93,11 +201,24 @@
             </li>
           </ul>
           <ul>
-            <li><a href="https://github.com/robertrengel"><img src="public/assets/github-icon-1-logo-svgrepo-com.svg" alt="github"></a></li>
-            <li><a href="https://www.linkedin.com/in/robert-jose-asdrubal-rengel-osorio/"><img src="public/assets/linkedin-icon-2-logo-svgrepo-com.svg" alt="linkdin"></a></li>
+            <li>
+              <a href="https://github.com/robertrengel"
+                ><img
+                  src="public/assets/github-icon-1-logo-svgrepo-com.svg"
+                  alt="github"
+              /></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/robert-jose-asdrubal-rengel-osorio/"
+                ><img
+                  src="public/assets/linkedin-icon-2-logo-svgrepo-com.svg"
+                  alt="linkdin"
+              /></a>
+            </li>
           </ul>
-        </ul> 
+        </ul>
       </ul>
-      </footer>
+    </footer>
   </body>
 </html>
